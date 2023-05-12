@@ -21,7 +21,7 @@ function App() {
       />
       {alertVisibility && <Alert>My Alert</Alert>}
 
-      <Button color="success" onClick={() => setAlertVisibility(true)}>
+      <Button alert-dismissible color="success" onClick={() => setAlertVisibility(true)}>
         Click Here
       </Button>
     </div>
